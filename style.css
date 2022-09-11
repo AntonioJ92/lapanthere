@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #333333;
 }
 
 .d-bloc button:hover {
@@ -781,13 +781,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: white!important;
-    text-shadow:black 0 0 5px;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: white!important;
+    color: #333333!important;
 }
 
 footer .row {
