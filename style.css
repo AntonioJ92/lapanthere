@@ -790,6 +790,24 @@ h4 {
     color: white!important;
 }
 
+footer .row {
+    display:flex;
+    justify-content:center;
+}
+
+footer .row .col-sm-4 {
+    display:flex;
+    justify-content: center;
+    margin-top:0.8vw;
+}
+
+footer .col-sm-4 ul {
+    display:flex;
+    justify-content:space-around;
+    gap: 5vw;
+    padding-left:5vw;
+}
+
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -1027,6 +1045,21 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    footer .row {
+        gap:5vw;
+    }
+    footer .row .col-sm-4 {
+        flex-direction:column;
+        justify-content: center;
+        margin-top:2vw;
+    }
+    footer .col-sm-4 ul {
+        flex-direction:column;
+        justify-content:space-around;
+        gap: 1vw;
+        margin-top:1vw;
+        padding-left:0;
     }
 }
 
